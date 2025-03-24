@@ -36,3 +36,17 @@ print("x =", x, "and y =", y)
 # If a variable name is chosen that consists of multiple words, put one underscore between each of the words.
 # Never choose variable names that start with an underscore. Such variable names are considered reserved for the authors of the Python interpreter.
 
+# It is conventional to always put one space after a # comment, and add two in front if it’s on the same line as code. For example:
+
+# this bit calculates an average
+avg = (10 + 5 + 10 + 5) / 4
+print("The average is:", avg)  # show the user
+
+"""
+<aside>
+🤖 **Data Science example**: larger projects with multiple people working on them might have fancy ways of distributing tasks (such as [Slack](https://slack.com), [kanban boards](https://www.atlassian.com/agile/kanban/boards), etc.). A rudimentary way of doing this for yourself is through the use of special comment formats such as
+
+`# TODO: this thing`, `# NOTE: don't break this!`, `# BUG: uh oh it broke`, `#FIXME: please unbreak`. VSCode has extensions (apps) that list these
+
+</aside>
+"""
